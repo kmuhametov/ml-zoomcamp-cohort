@@ -131,7 +131,7 @@ This model enables organizations to transition from:
 ### 📈 Key Data Characteristics
 
 #### Class Distribution
-```python
+
 # Attrition distribution
 Attrition_No     1233 (83.9%)
 Attrition_Yes     237 (16.1%)
@@ -258,7 +258,7 @@ This model enables organizations to transition from:
 | **Age** | 0.159 | Demographic factor |
 
 **Features Removed** (correlation < 0.10):
-```python
+
 ['DistanceFromHome', 'WorkLifeBalance', 'TrainingTimesLastYear', 'DailyRate', 
  'RelationshipSatisfaction', 'NumCompaniesWorked', 'YearsSinceLastPromotion', 
  'Education', 'MonthlyRate', 'PercentSalaryHike', 'EmployeeNumber', 
